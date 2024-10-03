@@ -1,0 +1,10 @@
+/* Default text color */
+.hover-text {
+    color: black;
+    cursor: pointer; /* Optional: Show a pointer cursor on hover */
+}
+
+/* Text color changes on hover */
+.hover-text:hover {
+    color: red;
+}

@@ -1,0 +1,46 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blue;
+}
+nav{
+    position: fixed;
+    width: 525px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font: size 1em ;
+    font-weight: 500;
+    color: white;
+text-decoration: none;
+padding: 0 20px;
+z-index: 1;
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 95px;
+    height: 50px;
+  background: linear-gradient(to right,maroon  0%,  skyblue 100%);
+    border-radius:10px ;
+
+}
+

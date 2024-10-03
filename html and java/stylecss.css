@@ -1,0 +1,32 @@
+.image-container {
+    position: relative;
+    display: inline-table;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    background-color:beige ;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+}
+img{
+    width: 900px;
+    height: 700px;
+  float: center;
+    border: 3px solid;
+    border: left 10px;;
+    margin-top: 3;
+}
+.text-overlay h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333; /* Adjust text color as needed */
+    border-radius: red;
+}
+.text-paragraph {
+    font-size: 230px; 
+}

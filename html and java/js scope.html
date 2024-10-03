@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <tittle>
+
+    </tittle>
+</head>
+
+<body>
+    <script>
+        let a = 100; /*global*/
+        if (a == 20) {
+            let b = 30; /*block scope*/
+            const c = 40;
+            document.write(a+"<br>");            
+            document.write(b+"<br>");
+            document.write(c+"<br>");
+        };
+        console.log(a);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <tittle></tittle>
+        <style type="text/css">
+            div#text{
+                font-family: arial;
+                font-size: 1.5em;
+                padding: 25px;        
+            }
+        </style>
+    </head>
+    <body>
+    <div id="text">
+        <h1> Scroll Event</h1>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet dicta necessitatibus 
+        magnam voluptatem ab incidunt id eveniet.
+         Excepturi distinctio aspernatur et quod sequi veniam repudiandae vel cupiditate at corrupti.
+
+    </p>
+    <h1> Scroll Event</h1>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet dicta necessitatibus 
+        magnam voluptatem ab incidunt id eveniet.
+         Excepturi distinctio aspernatur et quod sequi veniam repudiandae vel cupiditate at corrupti.
+
+    </p>
+    <h1> Scroll Event</h1>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet dicta necessitatibus 
+        magnam voluptatem ab incidunt id eveniet.
+         Excepturi distinctio aspernatur et quod sequi veniam repudiandae vel cupiditate at corrupti.
+
+    </p>
+    <h1> Scroll Event</h1>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet dicta necessitatibus 
+        magnam voluptatem ab incidunt id eveniet.
+         Excepturi distinctio aspernatur et quod sequi veniam repudiandae vel cupiditate at corrupti.
+    </p>
+         <h1> Scroll Event</h1>
+         <p> 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet dicta necessitatibus 
+             magnam voluptatem ab incidunt id eveniet.
+              Excepturi distinctio aspernatur et quod sequi veniam repudiandae vel cupiditate at corrupti.
+     
+         </p>
+
+
+    </div><!--end text-->
+    <script type="text/javascript">
+        window.addEventListener('wheel',
+        function (event){
+            if(event.deltaY < 0){
+                console.log("scrolling UP...");
+            }else if(event.deltaY > 0){
+             console.log("scrolling Down...")
+             ;
+            }
+        });
+    </script> 
+    </body>
+</html>
